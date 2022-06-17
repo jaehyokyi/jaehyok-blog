@@ -64,6 +64,7 @@ class Comment(db.Model):
     text = db.Column(db.String(250), nullable=False)
 
 
+# Create db
 db.create_all()
 
 
